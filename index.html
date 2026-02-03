@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunflower Bouquet</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@dotlottie/player-component"></script>
+</head>
+<body>
+
+    <!-- HOME SECTION -->
+    <div id="home" class="home-section">
+        <button id="clickButton" class="click-button">Hello! Click me :)</button>
+        <div id="animation-container" class="animation-container hidden">
+            <dotlottie-player
+                src="https://lottie.host/d346a6c2-aab2-470c-994b-f4f220c40b97/UVNFBzWIZv.lottie"
+                style="width: clamp(120px, 50vw, 280px); height: auto;"
+                autoplay
+                loop
+            ></dotlottie-player>
+        </div>
+    </div>
+
+    <!-- MAIN SECTION (Sunflower Bouquet) -->
+    <section id="main" class="main-section">
+        <div class="upper-container">
+            <div class="main-message">
+                <h1>Happy Valentine's Day, Denise!</h1>
+                <p>Thank you for being someone who inspires me and brings so much warmth into my days.</p>
+
+            </div>
+            <!-- Bouquet Container -->
+            <div class="bouquet-container">
+
+                <!-- Single bouquet wrap -->
+                <div class="wrap"></div>
+
+                <!-- Sunflowers -->
+                <div class="sunflowers-container">
+                    <div id="sunflower-1">
+                        <div class="center-wrapper">
+                            <div class="petals" onclick="handlePetalClick(event)">
+                                <div class="petal petal1" style="--r: 0deg;"></div>
+                                <div class="petal petal2" style="--r: 45deg;"></div>
+                                <div class="petal petal3" style="--r: -45deg;"></div>
+                                <div class="petal petal4" style="--r: 90deg;"></div>
+                                <div class="petal petal5" style="--r: -90deg;"></div>
+                                <div class="petal petal6" style="--r: 135deg;"></div>
+                                <div class="petal petal7" style="--r: -135deg;"></div>
+                                <div class="petal petal8" style="--r: 180deg;"></div>
+                            </div>
+                            <div class="center"></div>
+                            <div class="leaf leaf-left"></div>
+                            <div class="leaf leaf-right"></div>
+                            <div class="stem"></div>
+                        </div>
+                    </div>
+
+                    <div id="sunflower-2">
+                        <div class="center-wrapper">
+                            <div class="petals" onclick="handlePetalClick(event)">
+                                <div class="petal petal1" style="--r: 0deg;"></div>
+                                <div class="petal petal2" style="--r: 45deg;"></div>
+                                <div class="petal petal3" style="--r: -45deg;"></div>
+                                <div class="petal petal4" style="--r: 90deg;"></div>
+                                <div class="petal petal5" style="--r: -90deg;"></div>
+                                <div class="petal petal6" style="--r: 135deg;"></div>
+                                <div class="petal petal7" style="--r: -135deg;"></div>
+                                <div class="petal petal8" style="--r: 180deg;"></div>
+                            </div>
+                            <div class="center"></div>
+                            <div class="leaf leaf-left"></div>
+                            <div class="leaf leaf-right"></div>
+                            <div class="stem"></div>
+                        </div>
+                    </div>  
+                </div>
+
+            </div>
+        </div>
+        <!-- Ground -->
+        <div class="ground"></div>
+
+        <!-- Popup for messages -->
+        <div id="popup" class="popup"></div>
+
+        <!-- Message Box -->
+        <div class="overlay" id="overlay"></div>
+        <div class="message-box" id="messageBox">
+            <h1>🌻 Sunflower of Love 🌻</h1>
+            <button onclick="doneClicked()">Done</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
