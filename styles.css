@@ -15,7 +15,7 @@ body {
     max-width: 1600px;
     overflow: hidden;
     background: linear-gradient(180deg, #D4F1FF, #bae6dd);
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: 'Comic Sans MS',sans-serif;
 }
 
 /* ===== HOME SECTION ===== */
@@ -511,19 +511,19 @@ body {
         margin-bottom: 5%;
     }
     .main-message h1 {
-        font-size: 2rem;
+        font-size: 3rem;
         white-space: wrap;
         text-align: center;
     }
 
     .main-message p {
         text-align: center;
-        font-size: 0.8rem;
+        font-size: 1.1rem;
     }
 
     .bouquet-container {
         width: 100%;
-        transform: scale(0.5) translateY(40%);
+        transform: scale(0.6) translateY(40%);
         justify-content: center;
         align-items: center;
     }
