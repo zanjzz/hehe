@@ -14,20 +14,20 @@ const POPUP_DURATION = 4000; // matches your CSS animation
 
 // ===== MESSAGES =====
 const baseMessages = [
-    'You make my heart bloom 🌸',
+    'You are very gorgeous!🌸',
     'Sunshine always reminds me of you ☀️',
     'You are petal-perfect 💛',
-    'I love you to the moon and back 🌙',
-    'Every day feels warmer with you 💕',
+    '"D" stands for demure ;)',
+    'Your intelligence is attractive 💕',
     'You’re my favorite notification 💌',
-    'My heart chose you — no undo 💖',
-    'You make ordinary moments magical ✨',
+    'Why am I doing this lmao 💖',
+    'I hope you liked my gift, and me... kimiee ✨',
     'Even silence feels sweet with you 🌷',
-    'You’re my calm and my chaos 💞',
-    'Loving you feels natural 🌼',
+    'I love your calmness 💞',
+    'Six sevennnnnnn',
     'You’re the soft thought in my loud days 💭',
     'I smile easier because of you 😊',
-    'You feel like home 🏡',
+    'God loves you <3',
     'My favorite place is next to you 🤍',
     'This flower blooms because of you 🌻'
 ];
