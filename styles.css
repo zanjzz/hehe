@@ -482,7 +482,7 @@ body {
     cursor: pointer;
     font-size: 16px;
     font-weight: bold;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: 'Pacifico', 'Comic Sans MS', cursive, sans-serif;
     transition: background 0.3s ease;
 }
 
@@ -603,5 +603,6 @@ body {
         padding: 14px 18px;
     }
 }
+
 
 
